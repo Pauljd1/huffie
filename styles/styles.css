@@ -1,0 +1,37 @@
+/* Import */
+@import "components/nav.css";
+@import "components/hero.css";
+@import "components/section2.css";
+@import "components/section3.css";
+@import "components/footer.css";
+
+/* Root Variables */
+
+:root {
+  --primary-text: #364153;
+  --primary-grey: #c9d0da;
+  --primary-blue: #263fa9;
+  --background-color: #f6f7fb;
+  --background-color-2: #161739;
+  --green-btn-color: #295e48;
+  --emoji-1-background: #6281f7;
+  --emoji-3-background: #5db082;
+  --emoji-4-background: #6d4ae5;
+  --section-3-emoji-3-background: #3c4c98;
+  --section-3-emoji-2-background: #f5c044;
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Sora", sans-serif;
+  background-color: var(--background-color);
+}
+
+/* Media Quries */

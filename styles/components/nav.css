@@ -1,0 +1,54 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    padding-bottom: 3rem;
+    padding: 2rem;
+}
+
+.nav__logo {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav ul {
+    display: flex;
+    gap: 1rem; 
+    padding: 0;
+    margin: 0;
+    
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav li {
+    list-style-type: none;
+
+}
+
+.nav__login{
+    color: var(--primary-text);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.nav__signup{
+    background-color:var(--green-btn-color) ;
+    color: var(--background-color);
+    border-radius: 50px; 
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 1px solid ;
+    padding: 6px 30px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+

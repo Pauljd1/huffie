@@ -1,0 +1,131 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--background-color-2);
+  color: white;
+  padding: 20px 0;
+  height: 300px;
+  flex-wrap: wrap;
+}
+
+.footer__left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3rem;
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.footer__header {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  width: 500px;
+}
+
+.footer__header--green {
+  color: var(--emoji-3-background);
+}
+
+.footer__logo {
+  margin-top: 1rem;
+  width: 150px;
+  align-self: flex-start;
+}
+
+.footer__right {
+  display: flex;
+  justify-content: flex-start;
+  width: 40%;
+  padding: 3rem;
+  color: white;
+  flex: 1;
+  margin-top: -2rem;
+}
+
+.footer__right-left,
+.footer__right-right {
+  list-style: none;
+  padding: 0;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.footer__right-left li,
+.footer__right-right li {
+  margin-bottom: 10px;
+}
+
+.footer__right-left {
+  text-align: left;
+}
+
+.footer__right-right {
+  text-align: left;
+}
+
+.footer__right-left,
+.footer__right-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.footer__right a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__right {
+  margin-top: -2rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__left,
+  .footer__right {
+    width: 100%;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .footer__header {
+    font-size: 1.6rem;
+    width: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer__right-left,
+  .footer__right-right {
+    font-size: 1.1rem;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__header {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer__right-left,
+  .footer__right-right {
+    font-size: 1rem;
+  }
+
+  .footer__right-left,
+  .footer__right-right {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__right {
+    padding: 1rem;
+    margin-top: 0;
+  }
+}
