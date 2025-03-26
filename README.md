@@ -10,7 +10,7 @@ This is a solution for the [Advanced Hompage](https://devchallenges.io/challenge
 
 You can view the live demo and solution using the links below:
 
-- [Live Demo](#)
+- [Live Demo](https://stellular-creponne-bd347a.netlify.app/)
 - [Challenge](https://devchallenges.io/challenge/advanced-homepage-huffie)
 
 ## What I Learned
@@ -31,4 +31,5 @@ Working on this project helped reinforce my understanding of:
 A big thanks to [devChallenges.io](https://devchallenges.io/) for providing this challenge!
 
 # Advanced Homepage Huffie
+
 # huffie
